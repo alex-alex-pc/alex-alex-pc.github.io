@@ -1,0 +1,155 @@
+header {
+height: 150px;
+}
+.nav {
+    display: block;
+    background: rgba(126, 105, 78, 0.781); 
+}
+    .nav .menu{
+        display: block;
+        overflow: hidden;
+margin: 0;
+padding: 0;
+width: 100%;
+text-align: center;
+list-style: none outside none;
+    }
+    .nav li {
+        display: inline-block;
+        margin: 0 10px;
+        font-size: 20px;
+        font-weight: 600;
+line-height: 40px;
+    }
+    .nav li a {
+        display: block;
+        height: 100%;
+        padding: 6px 12px;
+        color: white;
+        text-decoration: none;   
+    }
+    .nav li:hover a {
+        background: rgba(0, 0, 0, .3);
+    }
+
+ul {
+    color:red;
+    font-size: 20px;
+}
+.block1{
+    display: inline-block;
+    width: 40%;
+    padding: 0px;
+    margin: 0px;
+   }
+   .block1 p {
+       text-align: center;
+   }
+.block2 {
+   display: block;
+   float: right;
+    padding: 0px;
+    width:28%;
+}
+.block3 {
+    display: block;
+    float: left;
+    padding: 0px;
+    width: 30%;
+}
+.block3 h2, .block2 h2 {
+text-align: center;
+padding: 0 0 0 40px;
+}
+.block3 li {
+    text-align: center; 
+    list-style: none;
+    margin: 0px;
+    padding: 0;
+}
+    .block3 h2, .block2 h2 {
+        color: coral;
+}
+.foto {
+   display: inline-block;  
+    width:45%;
+    padding: 0px; 
+}
+.main {
+    display: block;
+float: right;
+    width: 45%;
+    padding: 0px;
+    margin: 10px
+}
+.social {
+    display: block; 
+    background: rgba(126, 105, 78, 0.781);  
+    font-family: 'Franklin Gothic Medium';
+    font-size: 40px;
+    text-align: left;
+    line-height: 40px;
+    clear: both;
+}
+.fon {
+    background-image: url( it-10.jpg );
+    position: relative;
+}
+.p {
+    display: block;
+    float: right;
+    width: 45%;
+   font-family: 'Times New Roman';
+   color: black;
+}
+.yslugi {
+    display: block;
+    position: absolute;
+    left: 600px;
+    top: 300px;
+    width: 50% 
+}
+.yslugi h1 {
+    font-size: 50px;
+    color: white;
+}
+.yslugi h2 {
+    color: bisque;
+}
+.yslugi ul {
+    color: bisque;
+}
+.yslugi p {
+    color: bisque;
+}
+.ja {
+display: block;
+float: left;
+width: 50%;
+padding: 20px;
+}
+.rezume {
+    display: block;
+    width: 48%;
+    margin: 10px;  
+}
+.rezumep {
+text-align: center;
+    color: black;
+    font-size:40px;
+}
+.block4 {
+    display: block;
+    text-align: center;
+    color: coral;
+}
+@media (max-width: 1024px) {
+    ul {
+        font-size: 14px;
+    }
+    .block2 {
+        width:39%;
+     }
+     .block1{
+        width: 31%;
+}
