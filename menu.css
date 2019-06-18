@@ -162,8 +162,6 @@ text-align: center;
 } 
 }
 @media (max-width: 2560px) {
-    ul {
-        font-size: 25px;
     }
     .yslugi {
         display: block;
