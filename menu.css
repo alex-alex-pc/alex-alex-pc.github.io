@@ -163,13 +163,13 @@ text-align: center;
 }
 @media (max-width: 2560px) {
     ul {
-        font-size: 20px;
+        font-size: 25px;
     }
     .yslugi {
         display: block;
         position: absolute;
         left: 130px;
-        top: 890px;
+        top: 920px;
         width: 70% 
     }
 } 
