@@ -162,6 +162,9 @@ text-align: center;
 } 
 }
 @media (max-width: 2560px) {
+    ul {
+        font-size: 16px;
+    }
     .yslugi {
         display: block;
         position: absolute;
