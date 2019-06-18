@@ -160,3 +160,13 @@ text-align: center;
     top: 420px;
     width: 70% 
 } 
+}
+@media (max-width: 480px) {
+    .yslugi {
+        display: block;
+        position: absolute;
+        left: 130px;
+        top: 470px;
+        width: 70% 
+    }
+} 
